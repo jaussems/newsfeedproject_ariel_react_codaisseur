@@ -1,3 +1,5 @@
+import "./Footer.scss";
+
 export default function NavBar() {
-  return <div>This is the footer</div>;
+  return <div className="footer">This is the footer</div>;
 }
