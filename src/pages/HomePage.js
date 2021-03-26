@@ -1,3 +1,9 @@
+import newsArticleAPI from "../components/newsArticleAPI";
+
 export default function HomePage() {
-  return <div></div>;
+  return (
+    <div>
+      <newsArticleAPI />
+    </div>
+  );
 }
